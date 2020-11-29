@@ -1,4 +1,6 @@
 // Person declaration
+let myName = "Newton" // String
+var myAge = 53 // Integer
 let firstName = "Name: Bob"
 let lastName = "Smith"
 let fullName = firstName + " " + lastName // String concatenation
@@ -9,6 +11,13 @@ let eyeColor = "Eye color: Blue"
 var hairColor = "Hair color: Dark brown"
 
 print("------------")
+
+//Introduction
+print("Hi, my name is \(myName), and I'm \(myAge) years old.")
+// Combining a string with a variable
+print("I'll be telling you all about my boss")
+
+print("")
 
 // Title
 print("About my boss")
