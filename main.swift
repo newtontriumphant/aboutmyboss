@@ -1,14 +1,14 @@
 // Person declaration
 let myName = "Newton" // String
 var myAge = 21 // Integer
-let firstName = "Name: Bob"
-let lastName = "Smith"
+let firstName = "Bob" // String
+let lastName = "Smith" // String
 let fullName = firstName + " " + lastName // String concatenation
-var age = "Age: 51"
-var weight = "Weight: 212.12 pounds" 
-var isOrganDonor = "Organ Donor: No"
-let eyeColor = "Eye color: Blue"
-var hairColor = "Hair color: Dark brown"
+var age = 51 // Integer
+var weight = 212.12 // Double
+var isOrganDonor = "no" // String
+let eyeColor = "Eye color: Blue" // String
+var hairColor = "Dark brown" // String
 
 print("------------")
 
@@ -28,19 +28,19 @@ print("About my boss")
 print("")
 
 // Information
-print(fullName)
-print(age)
-print(weight)
-print(isOrganDonor)
+print("Name: \(fullName)")
+print("Age: \(age)")
+print("Weight: \(weight) pounds")
+print("Organ donor: \(isOrganDonor)")
 print(eyeColor)
-print(hairColor)
+print("Hair color: \(hairColor)")
 
 print("")
 
 // New weight
 print("Bob took a workout yesterday.")
-weight = "As of today, he weighs 200.35 pounds"
-print(weight)
+weight = 200.34
+print("As of today, he weighs \(weight) pounds.")
 
 print("")
 
