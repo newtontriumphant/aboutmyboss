@@ -6,9 +6,10 @@ let lastName = "Smith" // String
 let fullName = firstName + " " + lastName // String concatenation
 var age = 51 // Integer
 var weight = 212.12 // Double
-var isOrganDonor = "no" // String
+var isOrganDonor = "No" // String
 let eyeColor = "Eye color: Blue" // String
 var hairColor = "Dark brown" // String
+var wearMask = "wearing a mask"
 
 print("------------")
 
@@ -37,6 +38,21 @@ print("Hair color: \(hairColor)")
 
 print("")
 
+// Mask
+if wearMask == "wearing a mask" {
+  print("Currently, he is \(wearMask).")
+}
+else if wearMask == "not wearing a mask" {
+  print("Currently, he is \(wearMask). Careful!")
+}
+else {
+  print("Currently, his mask is only half on, careful!")
+}
+
+
+
+print("")
+
 // New weight
 print("Bob took a workout yesterday.")
 weight = 200.34
@@ -45,7 +61,7 @@ print("As of today, he weighs \(weight) pounds.")
 print("")
 
 // Dyed hair
-var message1: String = "He dyed his hair yesterday." // Explicit type declaration
+var message1: String = "He dyed his hair yesterday too." // Explicit type declaration
 hairColor = "His hair is now black." // Redefining an inference type declaration
 
 print(message1)
